@@ -110,11 +110,13 @@ body{
 
 .hero_left{
   height: 100%;
-  margin-right: 3rem;
+  margin-right: 5rem;
 }
 .hero_left img{
-  width: 106%;
-  height: 100%;
+  width: 116%;
+  /* height: 100%; */
+  padding-top: 0.3rem;
+
 }
 .hero_right{
   flex: 1;
@@ -325,7 +327,6 @@ footer img{
   }
 
   .cliped_path{
-    top: 99.9%;
     left: 30%;
     background-color: white;
   }
@@ -387,7 +388,7 @@ footer img{
   .hero{
     position: relative;
     width: 100%;
-    height: 380px;
+    height: 456px;
     border: 4px solid var(--main-color);
     margin-top: 2rem;
     padding: 2rem;
