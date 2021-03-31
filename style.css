@@ -300,6 +300,20 @@ body {
   font-weight: bold;
 }
 
+.half {
+  position: relative;
+  color: #ED6DA6;
+}
+
+
+.half:before {
+  position:absolute;
+  content:''attr(title)'';
+  color: #009c9e;
+  width: .5em;
+  overflow: hidden;
+}
+
 /* ================================================== LOGIN END ========================================================== */
 
 /* ================================================== MAIN PAGE STARTS ========================================================== */
