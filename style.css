@@ -440,6 +440,10 @@ body {
 
 /* ================================================== EDIT PROFILE STARTS ========================================================== */
 
+.editprofile_hero {
+  margin-bottom: 8rem;
+}
+
 .editprofile_section {
   width: 100%;
   display: flex;
@@ -498,8 +502,23 @@ label > input[type="checkbox"]:checked + *::before {
 label {
   color: #009c9e;
 }
-/* ================================================== EDIT PROFILE STARTS ========================================================== */
+/* ================================================== EDIT PROFILE ENDS ========================================================== */
 
+/* ================================================== ADMINISTRATION STARTS ========================================================== */
+
+.administration_sections {
+  margin-top: 8rem;
+}
+
+.admin_sec_details .main_sec_details_title {
+  font-size: 1.5rem;
+}
+
+.admin_sec_details .lg_btn {
+  margin-top: 1rem;
+}
+
+/* ================================================== ADMINISTRATION ENDS ========================================================== */
 
 /* ================================================== FOOTER STARTS ========================================================== */
 
@@ -593,6 +612,13 @@ footer img {
 @media (max-width: 850px) {
   body {
     background-color: white;
+  }
+  .admin_sec_details .lg_btn {
+    width: 100%;
+  }
+  .admin_sec_details p {
+    text-align: center;
+    line-height: 1.5;
   }
   .main_sec_details_title {
     text-align: center;
